@@ -1,0 +1,75 @@
+/* Remember to change background colour of input and the cokor of the main container */
+/* Main container */ 
+
+body {
+    background-color: #d3d3d3;
+}
+.formcontainer {
+    border: 1px solid black;
+    height: 420px;
+    width: 300px; 
+    margin: 0 auto; 
+    background-color: blueviolet;
+} 
+/* Login Heading */
+.Heading {
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 29px;
+} 
+
+.inputcontainer {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+} 
+.Forgotpassword {
+    text-decoration: none; 
+    color: black;
+    margin-left: 100px;
+} 
+input {
+    width: 70%; 
+    border: none;
+    border-bottom: 2px solid black; 
+    margin-left: 30px; 
+    margin-top: 1px; 
+    background-color: blueviolet;
+}  
+label {
+    margin-left: 30px; 
+    font-weight: bold;
+} 
+button {
+    color: white;
+    background-color: blue; 
+    margin-left: 1pc; 
+    border-radius: 15px; 
+    border: none; 
+    margin-top: 25px; 
+    font-size: 15px;
+    padding: 8px 89px;  
+    
+} 
+.button {
+    display: flex; 
+    justify-content: center;
+}
+
+footer {
+    text-align: center; 
+    margin-top: 30px;
+}
+
+::placeholder {
+    padding-left: 30px; 
+    margin-bottom: 13px;
+}
+
+.iconface {
+    position: absolute; left: 386px;top: 132px; 
+    opacity: 45%;
+}
+#lock {
+    position: absolute; left: 386px;top: 189px;
+}
